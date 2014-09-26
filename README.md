@@ -1,10 +1,10 @@
-## Regr - Friendly Regular Expressions
+## Regr - Friendly Regular Expressions For R
 
 Regr is a friendly regular expression builder for R inspired by Ruby's 
 [Regularity library](https://github.com/andrewberls/regularity) and
 R's [Magrittr package](https://github.com/smbache/magrittr) package. 
 
-What's simpler to create / decipher:
+What's simpler to create / decipher?
 
 ```
 /^[0-9]{3}-[A-Za-z]{2}#?[a|b]a{2,4}\$$/
