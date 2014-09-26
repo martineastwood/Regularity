@@ -25,7 +25,7 @@ EndWith('$')
 I know which I'd choose!
 
 ### Installation
-Regr is not currently on CRAN but in the meantime it can be installed in R using devtools
+Regr is not currently on CRAN as it's still in early development but in the meantime it can be installed in R using devtools
 
 ```R
 install_github("martineastwood/regr")
