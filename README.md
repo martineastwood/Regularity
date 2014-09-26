@@ -22,7 +22,7 @@ OneOf(c('a','b')) %>%
 Between(c(2,4), 'a') %>%
 EndWith('$')
 ```
-I know which I'd pick!
+I know which I'd choose!
 
 ### Installation
 Regr is not currently on CRAN but in the meantime it can be installed in R using devtools
@@ -53,6 +53,8 @@ tab          <- '\t'
 Also, it doesn't matter if these identifiers are pluralized, i.e. `Then(2, 'letters')` works just 
 the same as `Then(1, 'letter')`
 
+### Functions
+
 The following functions are currently supported:
 
 `StartWith(pattern)`: The line must start with the specified pattern. This must be called before any of the other functions 
@@ -63,7 +65,7 @@ The following functions are currently supported:
 
 `Maybe(pattern)`: Zero or one of the specified pattern, e.g. `Maybe(4, 'digits')`
 
-`OneOf(values)`: Specify an choice, e.g. `OneOf(c('a', 'b', 'c'))`
+`OneOf(values)`: Specify a choice, e.g. `OneOf(c('a', 'b', 'c'))`
 
 `Between(range, pattern)`: Specify a bounded repetition, e.g. `between(c(2,4), 'digits')`
 
