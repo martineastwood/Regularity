@@ -297,21 +297,3 @@ OneOrMore <- function(regr_object, pattern){
     regr_object <- Write(regr_object, pattern)
     return(Write(regr_object, '+'))
 }
-
-
-# 
-# pattern <- regr() %>% 
-#     StartWith(3, '$') %>% 
-#     Append('-') %>% 
-#     Then(2, 'uppercase') %>%
-#     Maybe('digit') %>%
-#     Between(c(1, 2), 'a') %>%
-#     OneOf(c('c', 'd', 'e')) %>%
-#     ZeroOrMore('k') %>%
-#     AtLeast(5, 'j') %>%
-#     EndWith(4, 'alphanumeric')
-# 
-# grepl(pattern$regex, '$$$-AB1aaekkjjjjjjrrty')
-# pattern$regex
-
-regr() %>% Between(c(3, 5), 'letters')
