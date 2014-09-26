@@ -22,9 +22,11 @@ OneOf(c('a','b')) %>%
 Between(c(2,4), 'a') %>%
 EndWith('$')
 ```
+I know which I'd pick!
 
 ### Installation
 Regr is not currently on CRAN but in the meantime it can be installed in R using devtools
+
 ```R
 install_github("martineastwood/regr")
 ```
