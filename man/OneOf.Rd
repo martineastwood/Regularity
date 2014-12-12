@@ -3,20 +3,20 @@
 \alias{OneOf}
 \title{Specify an alternation, e.g. one_of c('a', 'b', 'c')}
 \usage{
-OneOf(regr_object, pattern)
+OneOf(Regularity_object, pattern)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{pattern}{the pattern to be matched}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Specify an alternation, e.g. one_of c('a', 'b', 'c')
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% OneOf(c('a', 'b', 'c'))
+Regularity() \%>\% StartWith(3, 'digits') \%>\% OneOf(c('a', 'b', 'c'))
 }
 

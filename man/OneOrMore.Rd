@@ -3,20 +3,20 @@
 \alias{OneOrMore}
 \title{Specify that the pattern or identifer should appear one or many times}
 \usage{
-OneOrMore(regr_object, pattern)
+OneOrMore(Regularity_object, pattern)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{pattern}{the pattern to be matched}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Specify that the pattern or identifer should appear one or many times
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% OneOrMore('a')
+Regularity() \%>\% StartWith(3, 'digits') \%>\% OneOrMore('a')
 }
 

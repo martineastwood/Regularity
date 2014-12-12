@@ -3,22 +3,22 @@
 \alias{Between}
 \title{Specify a bounded repetition, e.g. between(c(2,4), 'digits')}
 \usage{
-Between(regr_object, range, pattern)
+Between(Regularity_object, range, pattern)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{range}{vector containing the upper and lower bound e.g. c(1, 5)}
 
 \item{pattern}{can be either a regex pattern or count and pattern}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Specify a bounded repetition, e.g. between(c(2,4), 'digits')
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% Between(c(1, 2), 'a')
+Regularity() \%>\% StartWith(3, 'digits') \%>\% Between(c(1, 2), 'a')
 }
 

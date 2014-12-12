@@ -3,22 +3,22 @@
 \alias{AtLeast}
 \title{Specify that the pattern or identifer should appear n or more times}
 \usage{
-AtLeast(regr_object, count, pattern)
+AtLeast(Regularity_object, count, pattern)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{count}{hpow many times the pattern shouold repeat}
 
 \item{pattern}{can be either a regex pattern or count and pattern}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Specify that the pattern or identifer should appear n or more times
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% AtLeast(5, 'a')
+Regularity() \%>\% StartWith(3, 'digits') \%>\% AtLeast(5, 'a')
 }
 

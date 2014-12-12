@@ -1,5 +1,5 @@
 library(testthat)
-library(regr)
+library(Regularity)
 
-test_check("regr")
+test_check("Regularity")
 

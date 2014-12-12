@@ -3,20 +3,20 @@
 \alias{StartWith}
 \title{The line must start with the specified pattern}
 \usage{
-StartWith(regr_object, ...)
+StartWith(Regularity_object, ...)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{...}{can be either a regex pattern or count and pattern}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 The line must start with the specified pattern
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits')
+Regularity() \%>\% StartWith(3, 'digits')
 }
 

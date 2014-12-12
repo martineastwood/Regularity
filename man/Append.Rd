@@ -3,20 +3,20 @@
 \alias{Append}
 \title{Append a pattern to the end (Also aliased to Append)}
 \usage{
-Append(regr_object, ...)
+Append(Regularity_object, ...)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{...}{can be either a regex pattern or count and pattern}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Append a pattern to the end (Also aliased to Append)
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% Append('-')
+Regularity() \%>\% StartWith(3, 'digits') \%>\% Append('-')
 }
 

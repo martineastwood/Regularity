@@ -1,27 +1,27 @@
-\name{Regr-package}
-\alias{Regr-package}
-\alias{Regr}
+\name{Regularity-package}
+\alias{Regularity-package}
+\alias{Regularity}
 \docType{package}
 \title{
-Regr
+Regularity
 }
 \description{
-Regr is a friendly regex builder inspired by Ruby's Regularity
+Regularity is a friendly regex builder inspired by Ruby's Regularity
     library that is designed to work with R's magrittr. The library is based
     around using simple verbs (StartsWith, Then, OneOrMore) to construct regex
-    strings. regr also recognises the identifiers digit, lowercase, uppercase,
+    strings. Regularity also recognises the identifiers digit, lowercase, uppercase,
     letter, alphanumeric, whitespace, space, tab as singular or plural, e.g.
     digit and digits can both be used
 }
 \details{
 \tabular{ll}{
-Package: \tab regr\cr
+Package: \tab Regularity\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2014-09-23\cr
 License: \tab GPL-3\cr
 }
-\code{regr() \%>\% 
+\code{Regularity() \%>\% 
 StartWith(3, '$') \%>\% 
 Append('-') \%>\% 
 Then(2, 'uppercase') \%>\%

@@ -3,20 +3,20 @@
 \alias{ZeroOrMore}
 \title{Specify that the pattern or identifer should appear zero or many times}
 \usage{
-ZeroOrMore(regr_object, pattern)
+ZeroOrMore(Regularity_object, pattern)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{pattern}{the pattern to be matched}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Specify that the pattern or identifer should appear zero or many times
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% OneOf('a')
+Regularity() \%>\% StartWith(3, 'digits') \%>\% OneOf('a')
 }
 

@@ -3,20 +3,20 @@
 \alias{Maybe}
 \title{Zero or one of the specified pattern}
 \usage{
-Maybe(regr_object, ...)
+Maybe(Regularity_object, ...)
 }
 \arguments{
-\item{regr_object}{created from regr}
+\item{Regularity_object}{created from Regularity}
 
 \item{...}{can be either a regex pattern or count and pattern}
 }
 \value{
-a regr object
+a Regularity object
 }
 \description{
 Zero or one of the specified pattern
 }
 \examples{
-regr() \%>\% StartWith(3, 'digits') \%>\% Maybe('digit')
+Regularity() \%>\% StartWith(3, 'digits') \%>\% Maybe('digit')
 }
 
