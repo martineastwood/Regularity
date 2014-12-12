@@ -57,7 +57,7 @@ the same as `Then(1, 'letter')`
 
 The following functions are currently supported:
 
-`StartWith(pattern)`: The line must start with the specified pattern. This must be called before any of the other functions 
+`StartWith(pattern)`: The line must start with the specified pattern. This must be called before any of the other functions. (Also aliased to `StartsWith`).
 
 `Append(pattern)`: Append a pattern to the end (Also aliased to `Then`), e.g. `Append('abc')`
 

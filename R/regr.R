@@ -98,6 +98,18 @@ StartWith <- function(regr_object, ...){
     return(Write(regr_object, pattern))
 }
 
+#' The line must start with the specified pattern (aliased to StartWith function)
+#'
+#' @param regr_object created from regr
+#' @param ... can be either a regex pattern or count and pattern
+#' @export
+#' @return a regr object
+#' @examples
+#' regr() %>% StartWith(3, 'digits')
+StartsWith <- function(regr_object, ...){
+  return(StartWith(regr_object, ...))
+}
+
 #' Append a pattern to the end (Also aliased to then)
 #'
 #' @param regr_object created from regr
