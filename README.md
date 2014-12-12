@@ -1,6 +1,6 @@
-## Regr - Friendly Regular Expressions For R
+## Regularity - Friendly Regular Expressions For R
 
-Regr is a friendly regular expression builder for R inspired by Ruby's 
+Regularity is a friendly regular expression builder for R inspired by Ruby's 
 [Regularity library](https://github.com/andrewberls/regularity) and
 R's [Magrittr package](https://github.com/smbache/magrittr) package. 
 
@@ -13,7 +13,7 @@ What's simpler to create / decipher?
 Or
 
 ```R
-regr() %>%
+Regularity() %>%
 StartWith(3, 'digits') %>%
 Then('-') %>%
 Then(2, 'letters') %>%
@@ -25,15 +25,15 @@ EndWith('$')
 I know which I'd choose!
 
 ### Installation
-Regr is not currently on CRAN as it's still in early development but in the meantime it can be installed in R using devtools
+Regularity is not currently on CRAN as it's still in early development but in the meantime it can be installed in R using devtools
 
 ```R
-install_github("martineastwood/regr")
+install_github("martineastwood/Regularity")
 ```
 
 ### Usage
 
-All you need to do is create a regr object and then chain the 
+All you need to do is create a Regularity object and then chain the 
 regex functions together. The functions either take a single pattern, e.g. `Then("xyz")`,
 or a numbered constraint such as `Then(2, 'digits')`.
 
